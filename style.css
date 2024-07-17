@@ -118,7 +118,8 @@ body {
 
 .compare-price {
   text-decoration: line-through;
-  filter: grayscale(50%);
+  color: #555;
+  font-weight: 600;
 }
 .product-discount {
   color: red;
