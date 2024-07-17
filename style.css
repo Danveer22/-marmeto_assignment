@@ -61,7 +61,7 @@ body {
 .product-container {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(4, 42rem);
+  grid-template-columns: repeat(4, 30rem);
   gap: 1rem;
 }
 
@@ -140,7 +140,7 @@ body {
 
 @media (max-width: 1200px) {
   .product-container {
-    grid-template-columns: repeat(3, 35rem);
+    grid-template-columns: repeat(3, 30rem);
     grid-template-rows: repeat(2, auto);
     align-items: center;
     justify-content: center;
@@ -151,7 +151,7 @@ body {
 
 @media (max-width: 1024px) {
   .product-container {
-    grid-template-columns: repeat(2, 30rem);
+    grid-template-columns: repeat(2, 25rem);
     grid-template-rows: repeat(2, auto);
     align-items: center;
     justify-content: center;
