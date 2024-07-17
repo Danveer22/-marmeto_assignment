@@ -61,7 +61,7 @@ body {
 .product-container {
   width: 90%;
   display: grid;
-  grid-template-columns: repeat(4, 38rem);
+  grid-template-columns: repeat(4, 35rem);
   justify-content: center;
   /* align-items: center; */
   gap: 1rem;
